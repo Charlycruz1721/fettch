@@ -1,3 +1,3 @@
 {
-/:log warning "Hola"
+:log warning "Hola";
 }
