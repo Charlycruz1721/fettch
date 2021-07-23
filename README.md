@@ -1,2 +1,4 @@
-# fettch
-Fettch Server 
+{# fettch
+#Fettch Server 
+/:log warning "Hola";
+}
