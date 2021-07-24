@@ -1,4 +1,5 @@
 {# fettch
 #Fettch Server 
-/:log warning "Hola";
-}
+local asd [/system clock get date] ;
+:log warning $asd";
+} 
