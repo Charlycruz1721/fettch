@@ -8,7 +8,7 @@
 :set $salida [/ip route get value-name=gateway-status $id]};
 :local subj "ruta salida";
 :local ody "$salida";
-/tool e-mail send to=$email subject=$subj body=$ody;
+:log warning "/tool e-mail send to=$email subject=$subj body=$ody";
 
 }
 
